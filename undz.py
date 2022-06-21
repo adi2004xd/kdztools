@@ -23,7 +23,7 @@ import os
 import sys
 import io
 import zlib
-import argparse
+import zstandard as zstd
 import hashlib
 from binascii import crc32, b2a_hex
 from uuid import UUID
